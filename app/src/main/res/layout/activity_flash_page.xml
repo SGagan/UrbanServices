@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="frikisoni.urbanservices.FlashPage"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urban
+  Services"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteY="232dp"
+        tools:layout_editor_absoluteX="63dp"
+        android:layout_marginTop="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView6" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="frikisoni.urbanservices.MainActivity">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:layout_alignBottom="@+id/etName"
+        android:layout_marginBottom="62dp"
+        android:layout_alignLeft="@+id/tSU"
+        android:layout_alignStart="@+id/tSU" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="SUBMIT"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_above="@+id/tSU"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_alignStart="@+id/tv" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="become a service provider"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tSU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Registered?Sign up!"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:layout_marginBottom="87dp"
+        android:layout_above="@+id/tv"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:keyboardNavigationCluster="false"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:layout_above="@+id/btn"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/et"
+        android:layout_alignStart="@+id/et" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/email"
+        android:layout_alignTop="@+id/et"
+        android:layout_toLeftOf="@+id/et"
+        android:layout_toStartOf="@+id/et" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignTop="@+id/etName"
+        app:srcCompat="@drawable/pass" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btn"
+        android:layout_alignEnd="@+id/btn"
+        android:layout_marginTop="38dp" />
+
+</RelativeLayout>
